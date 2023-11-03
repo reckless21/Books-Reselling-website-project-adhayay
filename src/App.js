@@ -11,7 +11,7 @@ import Login from "./pages/loginpage/Login";
 import SignUp from "./pages/signup-page/Signup";
 import ScrollToTop from "./components/util/ScrollToTop";
 import SearchPage from "./pages/searchpage/SearchPage";
-
+import ResellPage from './pages/resellpage/resellpage';
 export const UserContext = createContext({});
 export const CartContext = createContext({});
 
@@ -54,6 +54,7 @@ const App = () => {
                         <Route path="/book-details/:id" element={<BookDetailsPage/>} />
                         <Route path="/signup" element={<SignUp />} />
                         <Route path="/login" element={<Login />} />
+                        <Route path="/resell" element={<ResellPage />} />
                     </Routes> 
                 </CartContext.Provider>
             </UserContext.Provider>

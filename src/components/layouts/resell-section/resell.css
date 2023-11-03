@@ -1,0 +1,92 @@
+
+.resellcontainer {
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 8px;
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+  }
+  
+  .resellcontainer label {
+    display: inline;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Hanken Grotesk;
+
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="file"],
+  select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #708238;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #6c883b;
+  }
+  #privatePhone {
+    margin-right: 5px;
+  }
+  .form-group > input[type="checkbox"],
+  .form-group > label[for="privatePhone"] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .resellcontainersection {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+
+  .resellcontainer h2 {
+    color: #ffffff;
+    font-family: Hanken Grotesk;
+
+  }
+  
+  .resellcontainer h3 {
+    color: #ffffff;
+    font-family: Hanken Grotesk;
+
+  }
+  .resellcontainer select {
+    padding: 10px;
+  }
+  .resellcontainer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  }
+  

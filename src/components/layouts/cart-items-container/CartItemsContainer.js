@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const CartItemsContainer = () => {
     const { cartItems, totalAmount } = useContext(CartContext);
-    const stripeKey = 'pk_test_VvWjqy13EI2MSDgDxy3b5jbx00KrrL41yi';
+    const stripeKey = 'pk_test_51NwMfiSA5CRDs4RAP1yWFGb4Vi3AZlDr4DyXJwPdK1ZuKl8D2sT6l04KWQ72H822TJGFoy1Z5Btj6VBeexXzopr100p8h93edlnp';
     const navigate = useNavigate();
 
     const onToken = (token) => {

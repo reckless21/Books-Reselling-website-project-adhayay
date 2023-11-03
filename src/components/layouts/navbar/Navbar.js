@@ -26,6 +26,7 @@ const Navbar = ({ darkTheme, darkText }) => {
         <nav className="nav-links-container">
             <Link to="/" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Home</Link>
             <Link to="/books" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}> Buy Books</Link>
+            <Link to="/resell" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}> Sell used Books</Link>
             <Link to="/login" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Login</Link>
             <Link to="/signup" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Sign up</Link>
         </nav>
@@ -35,6 +36,7 @@ const Navbar = ({ darkTheme, darkText }) => {
         <nav className="nav-links-container">
             <Link to="/" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Home</Link>
             <Link to="/books" className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Buy Books</Link>
+            <Link to="/resell" className={`${darkText ? 'nav-links-dark' : 'nav-links' }`}> Sell used Books</Link>
             <a onClick={handleLogout} className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Logout</a>
             <Link to="/cart" className="cart-link"><Cart /></Link>
         </nav>
@@ -42,8 +44,8 @@ const Navbar = ({ darkTheme, darkText }) => {
     return (
         <section className={ `navbar-container ${ darkTheme ? 'background-dark relative' : 'background-transparent' } ` }>
             <div className="container flex justify-between align-center">
-                <Link to="/" className="logo">Adhayay<span className="text-primary"></span></Link>
-
+               
+                 <Link to="/" className="logo">Adhayay<span className="text-primary"></span></Link>
                 {user ? showLogoutAndCart : showLoginandSignUp }
             </div>
         </section>

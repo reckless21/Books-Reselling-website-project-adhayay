@@ -8,7 +8,6 @@ const ProductListingAll = () => {
     return (
         <section className="product-listing-all-container">
             <div className="container">
-
                 <div className="grid-container">
                     {BookData.map((book) => {
                         return (

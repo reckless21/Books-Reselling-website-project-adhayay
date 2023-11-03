@@ -23,7 +23,7 @@ const Login= () => {
                 </div>
             </section>
         </React.Fragment>
-    )
+    )   
 }
 
 export default Login;
