@@ -1,20 +1,32 @@
 # Engineering Books Resale Platform
+
 # Overview
 This project Adhayay is an e-commerce website designed for reselling engineering college books. The platform provides an efficient and user-friendly interface for students to buy and sell used textbooks, ensuring affordability and accessibility to essential educational resources.
 
 # Features
+
 User Registration and Authentication: Secure user accounts with options for signing up, logging in, and managing profiles.
+
 Book Listings: Users can list their used engineering textbooks for sale, including details such as title, author, edition, condition, and price.
+
 Search and Filter: Advanced search and filtering options to help buyers find specific books based on criteria like subject, author, or price range.
+
 Shopping Cart: A convenient shopping cart system for users to manage their purchases.
+
 Payment Integration: Secure payment gateway integration for smooth and safe transactions using stripe.
+
 Responsive Design: Mobile-friendly design to ensure a seamless experience across all devices.
 
 # Technology Stack
+
 Frontend: HTML, CSS, JavaScript, React.js
+
 Backend: Node.js, Express.js
+
 Database: Firebase
+
 Authentication: JWT (JSON Web Tokens)
+
 Payment Gateway: Stripe integration
 
 
